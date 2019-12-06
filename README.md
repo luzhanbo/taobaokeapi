@@ -1,6 +1,14 @@
 # 淘宝客API演示
 
-> 淘宝客API演示
+> 淘宝客API演示，请扫下面二维码进行体验
+
+![demo](./images/qrcode.png)
+
+## 使用技术
+
++ nodejs
++ nuxt.js
++ vant 
 
 ## 安装步骤
 
@@ -38,3 +46,14 @@ $ yarn build
 $ pm2 start 
 
 ```
+
+## 界面 
+
+> 淘宝客API演示-分类及商品详情页
+
+![分类](./images/demo1.jpg)
+
+> 淘宝客API演示-商品列表页
+
+![商品列表1](./images/demo2.jpg)
+
