@@ -1,0 +1,55 @@
+{
+  "sortList": [
+    {
+      "text": "佣金比例从高到低",
+      "value": "tk_rate_des"
+    },
+    {
+      "text": "销量从高到低",
+      "value": "total_sales_des"
+    },
+    {
+      "text": "推广量从高到低",
+      "value": "tk_total_sales_des"
+    },
+    {
+      "text": "价格从低到高",
+      "value": "price_asc"
+    },
+    {
+      "text": "价格从高到低",
+      "value": "price_des"
+    }
+  ],
+  "params":{
+    "fields": [
+      "item_id",
+      "title",
+      "short_title",
+      "url",
+      "quan",
+      "fee",
+      "new_price",
+      "old_price",
+      "shop_type",
+      "shop_title",
+      "city",
+      "sale_num"
+    ],
+    "page_no":1,
+    "page_size":20,
+    "need_free_shipment":true,
+    "has_coupon":true,
+    "sort":"tk_rate_des",
+    "is_tmall": false,
+    "is_overseas": false,
+    "need_prepay": false,
+    "include_good_rate": false,
+    "include_rfd_rate": false,
+    "include_pay_rate_30": false
+  },
+  "displayType":"apps-o",
+  "words":[
+    "高领","冲锋衣","女包","半身裙","雪纺裙","暖宝宝","冻干粉","长袖T恤","眼霜"
+  ]
+}

@@ -1,0 +1,27 @@
+{
+  "name": "tbk-demo",
+  "version": "1.0.0",
+  "description": "淘宝客API演示",
+  "author": "zhanbo.lu",
+  "private": true,
+  "scripts": {
+    "dev": "cross-env NODE_ENV=development nodemon server/index.js --watch server",
+    "build": "nuxt build",
+    "start": "cross-env NODE_ENV=production node server/index.js",
+    "generate": "nuxt generate"
+  },
+  "dependencies": {
+    "@nuxtjs/axios": "^5.8.0",
+    "body-parser": "^1.19.0",
+    "cross-env": "^5.2.0",
+    "express": "^4.16.4",
+    "nuxt": "^2.0.0",
+    "request": "^2.88.0",
+    "request-promise": "^4.2.5",
+    "vant": "^2.2.15",
+    "vue-clipboard2": "^0.3.1"
+  },
+  "devDependencies": {
+    "nodemon": "^1.18.9"
+  }
+}
