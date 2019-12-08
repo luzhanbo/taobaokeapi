@@ -88,9 +88,9 @@ export default {
         searchType: "search",
         displayType: "apps-o"
       };
-      console.log({root})
+      console.log(q)
       if (q) {
-        const ret = await $axios.post(`${root}api/search`, params);
+        const ret = await $axios.post(`${root}api/search`, params); 
         const { status, data } = ret;
         if (data && data.list) {
           result.list = data.list;
@@ -103,6 +103,8 @@ export default {
       }
       store.commit('setSearchInfo',result)
     }
+    console.log('===results>>>>>')
+    console.log(result)
     return {
       ...result,
       sortList,
@@ -252,6 +254,7 @@ export default {
 }
 .tag {
   padding: 5px;
+  font-size: 12px;
   display: inline-block;
 }
 </style>

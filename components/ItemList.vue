@@ -22,8 +22,8 @@
             优惠券<span class="fee">¥ {{item.quan}}</span>
           </van-col>
           <van-col span="7" class="sub-title right">
-            佣金
-            <span class="fee">¥{{item.fee}}</span>
+            返利
+            <span class="fee">¥{{item.total}}</span>
           </van-col>
         </van-row>
       </div>

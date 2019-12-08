@@ -13,12 +13,12 @@
       </van-col>
     </van-row>
     <van-row class="item-info">
-      <van-col span="12" class="sub-title">
+      <van-col span="14" class="sub-title">
         <span class="new-price">¥{{item.new_price}}</span>
-        <!-- <span class="old-price">{{item.old_price}}</span> -->
+        <span class="old-price">{{item.old_price}}</span>
       </van-col>
-      <van-col span="12" class="sub-title right">
-        佣金 <span class="fee">¥{{item.fee}}</span>
+      <van-col span="10" class="sub-title right">
+        返利<span class="fee">¥{{item.total}}</span>
       </van-col>
     </van-row>
   </van-col>
@@ -87,9 +87,9 @@ export default {
   color: red;
 }
 
-/* .old-price {
+.old-price {
   text-decoration: line-through;
-} */
+}
 .sub-title {
   font-size: 12px;
   color: grey;

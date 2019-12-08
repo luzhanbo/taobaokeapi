@@ -29,6 +29,7 @@
       "url",
       "quan",
       "fee",
+      "total",
       "new_price",
       "old_price",
       "shop_type",
