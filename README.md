@@ -42,13 +42,26 @@ git clone https://github.com/luzhanbo/taobaokeapi.git
 
 ``` bash
 # 安装依赖模块
+使用yarn 安装
 $ yarn install
 
+使用npm 安装 
+$ npm install
+
 # 启动项目，可通过这个地址访问， http://localhost:3000/
+使用yarn 运行
 $ yarn dev
 
-# 部署线上环境，先用以下命令构造，然后使用pm2 start进行部署 
+使用npm 运行
+$ npm dev  
+
+# 部署线上环境，先用以下命令构建，然后使用pm2 start进行部署 
+使用yarn 构建 
 $ yarn build
+
+使用npm 构建
+$ npm build 
+
 $ pm2 start 
 
 ```
